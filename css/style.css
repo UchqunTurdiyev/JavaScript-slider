@@ -63,7 +63,7 @@
     display: block;
     background-color: #c0c0c0;
     position: absolute;
-    top: 55%;
+    top: 45%;
     right: 50px;
     transform: translateY(-50%);
 }
@@ -120,6 +120,11 @@
         font-size: 60px;
         font-weight: 100;
         margin: 10px 0;
+    }
+    .controller{
+        right: 30px;
+        top: 55%;
+        height: 450px;
     }
 }
 
