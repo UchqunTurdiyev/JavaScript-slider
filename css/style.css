@@ -89,6 +89,18 @@
 }
 
 @media (max-width: 800px) {
+    .container{
+        height: 150vh;
+    }
+    .container_fluid{
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        left: 14%;
+        top: 55%;
+        transform: translateY(-50%);
+        overflow: hidden;
+    }
     .container_fluid{
         width: 400px;
         height: 500px;
