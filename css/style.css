@@ -90,7 +90,7 @@
 
 @media (max-width: 800px) {
     .container{
-        height: 150vh;
+        height: 100vh;
     }
     .container_fluid{
         width: 600px;
@@ -119,7 +119,7 @@
         height: 450px;
         position: absolute;
         left: 7%;
-        top: 55%;
+        top: 45%;
         transform: translateY(-50%);
         overflow: hidden;
     }
@@ -135,7 +135,7 @@
     }
     .controller{
         right: 30px;
-        top: 55%;
+        top: 45%;
         height: 320px;
     }
 }
