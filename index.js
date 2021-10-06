@@ -11,7 +11,7 @@
      line1.addEventListener('click', function () {
          slider.style.transform = 'translateX(0)';
          active.style.top = '0';
-         container.style.background = '#c4d719';
+         container.style.background = '#7d8819';
      });
      line2.addEventListener('click', function () {
         slider.style.transform = 'translateX(-25%)';

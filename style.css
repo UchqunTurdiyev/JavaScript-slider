@@ -14,10 +14,10 @@
 
 .container_fluid{
     width: 600px;
-    height: 280px;
+    height: 400px;
     position: absolute;
     left: 14%;
-    top: 55%;
+    top: 45%;
     transform: translateY(-50%);
     overflow: hidden;
 }
@@ -29,8 +29,11 @@
 
 .slider_col{
     width: 600px;
-    height: 280px;
+    height: 350px;
 }
+
+
+
 .slider_col h1{
     color: #fff;
     font-size: 80px;
@@ -83,4 +86,45 @@
     top: 0;
     transform: translateX(-50%);
     transition: 0.5s ease;
+}
+
+@media (max-width: 800px) {
+    .container_fluid{
+        width: 400px;
+        height: 500px;
+        overflow: hidden;
+    }
+    .slider_col{
+        width: 400px;
+        height: 320px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .container_fluid{
+        width: 300px;
+        height: 450px;
+        position: absolute;
+        left: 7%;
+        top: 55%;
+        transform: translateY(-50%);
+        overflow: hidden;
+    }
+    .slider_col{
+        width: 300px;
+        height: 400px;
+    }
+    .slider_col h1{
+        color: #fff;
+        font-size: 60px;
+        font-weight: 100;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 370px){
+    .container_fluid{
+        left: 3%;
+    }
 }
